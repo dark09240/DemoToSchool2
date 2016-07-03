@@ -1,0 +1,45 @@
+//
+//  DatePickerViewController.m
+//  Day2
+//
+//  Created by Lycodes_Dong on 7/2/16.
+//  Copyright © 2016 Dong. All rights reserved.
+//
+
+#import "DatePickerViewController.h"
+
+@interface DatePickerViewController ()
+
+@end
+
+@implementation DatePickerViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    // Do any additional setup after loading the view.
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)myDatePicker:(UIDatePicker *)sender {
+    
+    NSString *string = [NSString stringWithFormat:@"%@",sender.date];
+    
+    self.myLabel.text = string;
+    
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end

@@ -15,6 +15,14 @@
 		B6DF1F991D27E31A001F3635 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6DF1F971D27E31A001F3635 /* LaunchScreen.storyboard */; };
 		B6DF1FA41D27E31A001F3635 /* Day2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FA31D27E31A001F3635 /* Day2Tests.m */; };
 		B6DF1FAF1D27E31A001F3635 /* Day2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FAE1D27E31A001F3635 /* Day2UITests.m */; };
+		B6DF1FBE1D27E37D001F3635 /* SegmentedControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FBD1D27E37D001F3635 /* SegmentedControlViewController.m */; };
+		B6DF1FC11D27E67F001F3635 /* SliderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FC01D27E67F001F3635 /* SliderViewController.m */; };
+		B6DF1FC41D27EDD1001F3635 /* SwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FC31D27EDD1001F3635 /* SwitchViewController.m */; };
+		B6DF1FC71D27EF59001F3635 /* DatePickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FC61D27EF59001F3635 /* DatePickerViewController.m */; };
+		B6DF1FCA1D27F14C001F3635 /* PickerViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FC91D27F14C001F3635 /* PickerViewViewController.m */; };
+		B6DF1FD21D27F76A001F3635 /* ProgressViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FD11D27F76A001F3635 /* ProgressViewViewController.m */; };
+		B6DF1FD51D27FB38001F3635 /* ActivityIndicatorViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FD41D27FB38001F3635 /* ActivityIndicatorViewViewController.m */; };
+		B6DF1FD81D28006E001F3635 /* TableViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B6DF1FD71D28006E001F3635 /* TableViewViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,22 @@
 		B6DF1FAA1D27E31A001F3635 /* Day2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Day2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6DF1FAE1D27E31A001F3635 /* Day2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Day2UITests.m; sourceTree = "<group>"; };
 		B6DF1FB01D27E31A001F3635 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DF1FBC1D27E37D001F3635 /* SegmentedControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegmentedControlViewController.h; sourceTree = "<group>"; };
+		B6DF1FBD1D27E37D001F3635 /* SegmentedControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegmentedControlViewController.m; sourceTree = "<group>"; };
+		B6DF1FBF1D27E67F001F3635 /* SliderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderViewController.h; sourceTree = "<group>"; };
+		B6DF1FC01D27E67F001F3635 /* SliderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderViewController.m; sourceTree = "<group>"; };
+		B6DF1FC21D27EDD1001F3635 /* SwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwitchViewController.h; sourceTree = "<group>"; };
+		B6DF1FC31D27EDD1001F3635 /* SwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwitchViewController.m; sourceTree = "<group>"; };
+		B6DF1FC51D27EF59001F3635 /* DatePickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DatePickerViewController.h; sourceTree = "<group>"; };
+		B6DF1FC61D27EF59001F3635 /* DatePickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DatePickerViewController.m; sourceTree = "<group>"; };
+		B6DF1FC81D27F14C001F3635 /* PickerViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewViewController.h; sourceTree = "<group>"; };
+		B6DF1FC91D27F14C001F3635 /* PickerViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewViewController.m; sourceTree = "<group>"; };
+		B6DF1FD01D27F76A001F3635 /* ProgressViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressViewViewController.h; sourceTree = "<group>"; };
+		B6DF1FD11D27F76A001F3635 /* ProgressViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressViewViewController.m; sourceTree = "<group>"; };
+		B6DF1FD31D27FB38001F3635 /* ActivityIndicatorViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityIndicatorViewViewController.h; sourceTree = "<group>"; };
+		B6DF1FD41D27FB38001F3635 /* ActivityIndicatorViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityIndicatorViewViewController.m; sourceTree = "<group>"; };
+		B6DF1FD61D28006E001F3635 /* TableViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewViewController.h; sourceTree = "<group>"; };
+		B6DF1FD71D28006E001F3635 /* TableViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +129,22 @@
 				B6DF1F8D1D27E31A001F3635 /* AppDelegate.m */,
 				B6DF1F8F1D27E31A001F3635 /* ViewController.h */,
 				B6DF1F901D27E31A001F3635 /* ViewController.m */,
+				B6DF1FBC1D27E37D001F3635 /* SegmentedControlViewController.h */,
+				B6DF1FBD1D27E37D001F3635 /* SegmentedControlViewController.m */,
+				B6DF1FBF1D27E67F001F3635 /* SliderViewController.h */,
+				B6DF1FC01D27E67F001F3635 /* SliderViewController.m */,
+				B6DF1FC21D27EDD1001F3635 /* SwitchViewController.h */,
+				B6DF1FC31D27EDD1001F3635 /* SwitchViewController.m */,
+				B6DF1FC51D27EF59001F3635 /* DatePickerViewController.h */,
+				B6DF1FC61D27EF59001F3635 /* DatePickerViewController.m */,
+				B6DF1FC81D27F14C001F3635 /* PickerViewViewController.h */,
+				B6DF1FC91D27F14C001F3635 /* PickerViewViewController.m */,
+				B6DF1FD01D27F76A001F3635 /* ProgressViewViewController.h */,
+				B6DF1FD11D27F76A001F3635 /* ProgressViewViewController.m */,
+				B6DF1FD31D27FB38001F3635 /* ActivityIndicatorViewViewController.h */,
+				B6DF1FD41D27FB38001F3635 /* ActivityIndicatorViewViewController.m */,
+				B6DF1FD61D28006E001F3635 /* TableViewViewController.h */,
+				B6DF1FD71D28006E001F3635 /* TableViewViewController.m */,
 				B6DF1F921D27E31A001F3635 /* Main.storyboard */,
 				B6DF1F951D27E31A001F3635 /* Assets.xcassets */,
 				B6DF1F971D27E31A001F3635 /* LaunchScreen.storyboard */,
@@ -270,8 +310,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6DF1FC11D27E67F001F3635 /* SliderViewController.m in Sources */,
+				B6DF1FC71D27EF59001F3635 /* DatePickerViewController.m in Sources */,
+				B6DF1FD51D27FB38001F3635 /* ActivityIndicatorViewViewController.m in Sources */,
 				B6DF1F911D27E31A001F3635 /* ViewController.m in Sources */,
+				B6DF1FD81D28006E001F3635 /* TableViewViewController.m in Sources */,
+				B6DF1FD21D27F76A001F3635 /* ProgressViewViewController.m in Sources */,
 				B6DF1F8E1D27E31A001F3635 /* AppDelegate.m in Sources */,
+				B6DF1FBE1D27E37D001F3635 /* SegmentedControlViewController.m in Sources */,
+				B6DF1FCA1D27F14C001F3635 /* PickerViewViewController.m in Sources */,
+				B6DF1FC41D27EDD1001F3635 /* SwitchViewController.m in Sources */,
 				B6DF1F8B1D27E31A001F3635 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
